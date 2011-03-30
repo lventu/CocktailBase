@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<AnalogClock android:layout_height="wrap_content" android:id="@+id/AC1" 
+	android:layout_gravity="center_horizontal" android:layout_width="fill_parent">
+	</AnalogClock>
+	<Button android:id="@+id/scegli" 
+	android:layout_height="wrap_content" android:layout_width="wrap_content" 
+	android:text="Scegli" android:layout_gravity="center_horizontal"
+	android:layout_alignLeft="@+id/hour" 
+	android:layout_alignRight="@+id/hour"
+	android:layout_below="@+id/AC1" >
+	</Button>
+	<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" 
+	android:text="" android:layout_below="@+id/scegli" 
+	android:layout_marginLeft="5dp" android:padding="5dp"
+	android:id="@+id/hour"  android:layout_gravity="center">
+	</TextView>
+</RelativeLayout>

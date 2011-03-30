@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/row_container"
+  android:padding="4px" 
+  android:background="@drawable/shape" 
+  android:shrinkColumns="0">
+  <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" android:orientation="horizontal">
+    <ImageView android:layout_height="fill_parent" android:layout_width="72dp" android:maxWidth="72dp"
+    android:src="@drawable/icon" android:id="@+id/img_ck" android:gravity="center_vertical" 
+    android:cropToPadding="true" android:background="@color/white">
+    </ImageView>
+  	<TextView android:id="@+id/nam_ck" android:text="@string/etic_1_def" 
+  	android:textColor="@color/grey_car" android:textSize="14dp"
+  	android:paddingLeft="15dp" android:paddingTop="11dp" android:paddingBottom="11dp" 
+  	android:layout_height="fill_parent" android:layout_width="fill_parent"
+  	android:gravity="center_vertical">
+  	</TextView>
+</TableRow>
+</TableLayout>

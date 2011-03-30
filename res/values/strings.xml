@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">CocktailBase</string>
+<string name="etic_1_def">Nome Cocktail</string>
+<string name="versione">1.2.16</string>
+</resources>
